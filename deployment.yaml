@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment
 spec:
-  replicas: 5
+  replicas: 6 # HEY PETER! I increased the amount of replicas to 6! 
   selector:
     matchLabels:
       app: nginx
